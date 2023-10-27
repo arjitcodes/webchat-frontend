@@ -1,0 +1,36 @@
+#chatList {
+  margin-left: 82px;
+  width: 35vw;
+  padding: 50px 20px 0;
+}
+#chatList .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#chatList .nav > * {
+  cursor: pointer;
+}
+#chatList .nav .logo img {
+  width: 85px;
+}
+#chatList .nav .search {
+  font-size: 22px;
+}
+
+#chatList .chats {
+  max-height: calc(100vh - 94px);
+  margin-top: 30px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#chatList .chats::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  #chatList .chats {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }

@@ -1,0 +1,39 @@
+.single-chat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding:8px 20px;
+    background: var(--secondery-bg-color);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.single-chat .chat-info{
+    display: flex;
+    align-items: center;
+}
+.single-chat .chat-info .profile-pic {
+   margin-right: 10px;
+}
+.single-chat .chat-info .profile-pic img{
+   width: 50px;
+}
+
+.single-chat .chat-info .user .recent-msg{
+    font-weight: bold;
+    font-size: 12px;
+   
+}
+.single-chat .chat-info .user .name{
+   font-size: 16px;
+}
+
+
+
+.single-chat .status{
+    width: 10px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: var(--notification-color);
+}

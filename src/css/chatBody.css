@@ -1,0 +1,30 @@
+#chatBody{
+    height: 80%;
+    padding: 20px 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    
+}
+#chatBody .messeges{
+  
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */  
+}
+#chatBody .messeges::-webkit-scrollbar{
+  
+    display: none;
+ 
+}
+#chatBody .messeges>*{
+  
+   margin-bottom: 20px;
+
+  
+}
+#chatBody .messeges div span{
+   background: var(--secondery-bg-color);
+   margin-bottom: 10px;
+   padding: 4px 10px;
+}
+

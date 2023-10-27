@@ -1,0 +1,33 @@
+#chatNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+#chatNav .user , #chatNav .actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chatNav .user{
+    cursor: pointer;
+}
+
+#chatNav .user:first-child .profile-pic{
+    margin-right: 10px;
+}
+#chatNav .user:first-child img{
+    width: 50px;
+}
+#chatNav .user:first-child .status{
+    font-size: 10px;
+}
+
+#chatNav .actions >*{
+font-size: 19px;
+margin-right: 20px;
+cursor: pointer;
+}
